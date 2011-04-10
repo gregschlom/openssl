@@ -138,9 +138,9 @@ else
 	}
 
 # generate symbols.pdb unconditionally
-$app_cflag.=" /Zi /Fd\$(TMP_D)/app";
-$lib_cflag.=" /Zi /Fd\$(TMP_D)/lib";
-$lflags.=" /debug";
+$app_cflag.=" /Fd\$(TMP_D)/app";
+$lib_cflag.=" /Fd\$(TMP_D)/lib";
+$lflags.="";
 
 $obj='.obj';
 $asm_suffix='.asm';
