@@ -2,3 +2,5 @@ bin/
 include/
 lib/
 ssl/
+src/Makefile
+src/crypto/opensslconf.h
